@@ -1,17 +1,8 @@
-import Logo from '@/components/Logo';
+import React from 'react';
 import Link from 'next/link';
 
 const Home = () => (
   <div className="bg-gray-900 text-white min-h-screen">
-    <header className="p-4 text-center flex flex-col items-center"> {/* Added flex and items-center */}
-      <Logo />
-      <ul className="flex space-x-4 mt-4"> {/* Added mt-4 for top margin */}
-        <li><a href="#services" className="hover:text-yellow-300">Services</a></li>
-        <li><a href="#portfolio" className="hover:text-yellow-300">Portfolio</a></li>
-        <li><Link href="/contact" legacyBehavior><a className="hover:text-yellow-300">Contact</a></Link></li>
-      </ul>
-    </header>
-
     <main className="container mx-auto py-20 text-center">
       <h1 className="text-5xl font-bold mb-4">Specialized Generative AI Solutions</h1>
       <p className="text-lg mb-8">Transforming Your Ideas into Reality</p>
