@@ -1,6 +1,7 @@
 // pages/404.js
 
 import React from 'react';
+import Link from 'next/link'; // Import Link from next/link
 
 const NotFoundPage = () => (
   <div
@@ -15,7 +16,7 @@ const NotFoundPage = () => (
         Oops! It seems like our goofy web developer got a bit lost in the code. This page doesn&apos;t exist yet!
       </p>
       <p className="text-lg">
-        But don&apos;t worry, you can always go back to our <a href="/">home page</a> and continue your journey with us.
+        But don&apos;t worry, you can always go back to our <Link href="/">home page</Link> and continue your journey with us.
       </p>
     </div>
   </div>
