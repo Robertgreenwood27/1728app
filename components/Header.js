@@ -4,6 +4,7 @@ import React from 'react';
 import Logo from '@/components/Logo';
 import Link from 'next/link';
 
+
 const Header = () => (
   <header className="p-4 text-center flex flex-col items-center">
     <Logo />
@@ -14,6 +15,7 @@ const Header = () => (
       <li><Link href="/portfolio" legacyBehavior><a className="hover:text-yellow-300">Portfolio</a></Link></li>
       <li><Link href="/about" legacyBehavior><a className="hover:text-yellow-300">About</a></Link></li>
     </ul>
+    
   </header>
 );
 

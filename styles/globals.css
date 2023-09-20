@@ -25,3 +25,31 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+
+.circular-container {
+  width: 150px; /* Adjust the size as needed */
+  height: 150px; /* Adjust the size as needed */
+  border-radius: 50%; /* Makes it circular */
+  animation: colorChange 3s infinite; /* Use your animation duration */
+  background-color: #FF5733; /* Initial background color */
+  position: relative;
+  overflow: hidden; /* Clip the logo to the circle */
+}
+
+.logo {
+  width: 100%; /* Make sure the logo fills the circular container */
+  height: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Center the logo */
+}
+
+@keyframes colorChange {
+  0% { background-color: #FF5733; }
+  25% { background-color: #33FF57; }
+  50% { background-color: #5733FF; }
+  75% { background-color: #FF5733; }
+  100% { background-color: #33FF57; }
+}
