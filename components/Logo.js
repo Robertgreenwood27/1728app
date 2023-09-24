@@ -12,7 +12,7 @@ const Logo = () => {
       </h1>
       <br/>
       <p className="text-2xl relative top-[-1rem]">
-        I.T. easy as 12<sup className="relative top-[-0.5rem] text-red-500 font-bold">3</sup>
+        A.I. as easy as 12<sup className="relative top-[-0.5rem] text-red-500 font-bold">3</sup>
       </p>
     </div>
   );
